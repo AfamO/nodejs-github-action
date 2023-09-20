@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-github-action",
+  "version": "1.0.0",
+  "description": "A Nodejs project that uses GitHub Action for its CI/CD Pipeline",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js",
+	"test": "node tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AfamO/nodejs-github-action.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "Github",
+    "Action"
+  ],
+  "author": "AfamO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AfamO/nodejs-github-action/issues"
+  },
+  "homepage": "https://github.com/AfamO/nodejs-github-action#readme"
+}
