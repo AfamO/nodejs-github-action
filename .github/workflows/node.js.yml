@@ -3,11 +3,9 @@
 
 name: Node.js CI
 
-on:
-  push:
-    branches: [ $default-branch ]
-  pull_request:
-    branches: [ $default-branch ]
+run-name: ${{github.actor}} is deploying Nodejs app using GithHub Actions
+
+on: [push]
 
 jobs:
   build:
